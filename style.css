@@ -1,4 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
+/* ================ mobile ======================== */
+
+
+@media screen and (max-width: 600px) {
+    .head {
+        display: flex;
+        justify-content: space-around;
+        height: 48px;
+        /* margin-top: 27px; */
+        margin: 27px 24px 64px 24px;
+        
+    }
+    .logo {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #F16718;
+        color: #fff;
+    }
+
+    .order {
+        display: inline-block;
+        width: 151px;
+        height: 48px;
+        background-color: #E8EFF2;
+        color: #000;
+        text-align: center;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+
+    .heading {
+        width: 327px;
+        height: 96px;
+        margin: 0px 24px 32px 24px;
+        /* margin: 0 auto; */
+        /* text-align: left; */
+        color: #162542;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .article {
+        width: 70%;
+        height: 78px;
+        margin: 0px 24px 32px 24px;
+        color: #7B8BAD;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        font-family: 'Roboto', sans-serif;
+        word-spacing: -2px;
+    }
+
+    .sectionTypemaster {
+        /* display: flex;
+        justify-content: center; */
+        /* justify-content: center; */
+        /* padding: 0px 41px 64px 24px; */
+    }
+
+    .sectionTypemaster button {
+        margin: 0px 32px 64px 24px;
+        width: 150px;
+        height: 48px;
+        background-color: #F16718;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        display: inline-block;
+    }
+
+    .release {
+        margin-left: 159px;
+        width: 150px;
+        height: 48px;
+        display: inline-block;
+        color: #7B8BAD;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        /* text-align: center; */
+    }
+
+    .alone {
+        width: 372px;
+        height: 331px;
+        border-radius: 20px;
+    }
+
+    
+
+
+}
+
+
+/* ================ mobile ======================== */
 
 
 
