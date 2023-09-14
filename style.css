@@ -1,121 +1,313 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+/* body {
+    width: 375px;
+} */
 
-/* ================ mobile ======================== */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;900&family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+
+/* ================ header ================  */
+
+.header {
+    width: 327px;
+    margin: 27px 24px 68px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    width: 40px;
+    height: 40px;
+    background-color: #F16718;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.header button {
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #E8EFF2;
+    display: inline-block;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+/* ================ header ================  */
+
+/* ================ typemaster ===================== */
+
+.typemaster h1 {
+    width: 327px;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    /* 100% */
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.typemaster p {
+    width: 327px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.down {
+    display: flex;
+    /* margin-top: 32px; */
+    margin: 32px 41px 24px 32px;
+}
+
+.down button {
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    background: #F16718;
+    border: none;
+    color: #fff;
+}
+
+.down p {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    float: right;
+    padding: 11px 1px 11px 32px;
+}
+
+.img img {
+    border-radius: 20px;
+    margin: 39px -21px 39px 24px;
+}
+
+.gallery img {
+    border-radius: 10px;
+    margin: 10px 30px 32px -10px;
+    /* opacity: 0.; */
+}
+
+.gallRight {
+    background: #F16718;
+}
+
+/* ================ typemaster ===================== */
+
+/* =================== mechanical =================== */
+
+.mechanical h2 {
+    width: 255px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+    /* width: 0 auto; */
+    /* text-align: center; */
+    margin: 32px 60px 24px 60px;
+}
+
+.mechanical p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 24px 111px 24px;
+    /* 162.5% */
+}
+
+/* =================== mechanical =================== */
 
 
-@media screen and (max-width: 600px) {
-    .head {
-        display: flex;
-        justify-content: space-around;
-        height: 48px;
-        /* margin-top: 27px; */
-        margin: 27px 24px 64px 24px;
-        
-    }
-    .logo {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        background-color: #F16718;
-        color: #fff;
-    }
+/* ========= cardMonitor ================ */
 
-    .order {
-        display: inline-block;
-        width: 151px;
-        height: 48px;
-        background-color: #E8EFF2;
-        color: #000;
-        text-align: center;
-        padding: 12px;
-        border-radius: 8px;
-    }
+.cardMonitor img {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    margin: 1px 155px 48px 155px;
+}
 
+.cardMonitor h3 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 1px 24px 24px 24px;
+}
 
-    .heading {
-        width: 327px;
-        height: 96px;
-        margin: 0px 24px 32px 24px;
-        /* margin: 0 auto; */
-        /* text-align: left; */
-        color: #162542;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        font-size: 50px;
-    }
+.cardMonitor p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 1px 24px 64px 24px;
+}
 
-    .article {
-        width: 70%;
-        height: 78px;
-        margin: 0px 24px 32px 24px;
-        color: #7B8BAD;
-        letter-spacing: 2px;
-        line-height: 1.2;
-        font-family: 'Roboto', sans-serif;
-        word-spacing: -2px;
-    }
+/* ========= cardMonitor ================ */
 
-    .sectionTypemaster {
-        /* display: flex;
-        justify-content: center; */
-        /* justify-content: center; */
-        /* padding: 0px 41px 64px 24px; */
-    }
+/* ============== cardBluetooth =============== */
 
-    .sectionTypemaster button {
-        margin: 0px 32px 64px 24px;
-        width: 150px;
-        height: 48px;
-        background-color: #F16718;
-        border-radius: 8px;
-        border: none;
-        color: #fff;
-        font-weight: 700;
-        display: inline-block;
-    }
+.cardBluetooth img {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    margin: 1px 155px 48px 155px;
+}
 
-    .release {
-        margin-left: 159px;
-        width: 150px;
-        height: 48px;
-        display: inline-block;
-        color: #7B8BAD;
-        font-weight: 900;
-        font-family: 'Roboto', sans-serif;
-        /* text-align: center; */
-    }
+.cardBluetooth h3 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 1px 24px 24px 24px;
+}
 
-    .alone {
-        width: 372px;
-        height: 331px;
-        border-radius: 20px;
-    }
+.cardBluetooth p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 1px 24px 64px 24px;
+}
 
-    
+/* ============== cardBluetooth =============== */
 
 
+/* ================== cardBattery ===================  */
+
+.cardBattery img {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    margin: 1px 155px 48px 155px;
+}
+
+.cardBattery h3 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 1px 24px 24px 24px;
+}
+
+.cardBattery p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 1px 24px 64px 24px;
+}
+
+/* ================== cardBattery ===================  */
+
+/* =============== backlit ======================= */
+
+.backlit img {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    margin: 1px 155px 48px 155px;
+}
+
+.backlit h3 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 1px 21px 24px 27px;
+}
+
+.backlit p {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 1px 21px 96px 27px;
+}
+
+/* =============== backlit ======================= */
+
+/* ============ footer =============== */
+
+.footer {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 1px 52px 50px 51px;
 }
 
 
-/* ================ mobile ======================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ============ footer =============== */
